@@ -1,6 +1,6 @@
 import { AttackBehavior } from '../../interfaces';
 import { logger } from '../Logger';
-import { Player } from '../Players';
+import { Player } from '../Player';
 
 import { Attack } from './AbstractAttack';
 
