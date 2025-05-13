@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node --script-mode src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "packageManager": "pnpm@10.10.0",
   "devDependencies": {
     "@types/node": "^22.15.17",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }

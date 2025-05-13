@@ -1,7 +1,5 @@
-import { Player, logger, BaseFightManager, BasePlayersManager, BasePairsManager } from '../services';
-import { PlayerFactory } from '../lib';
-import { FightManagerBehavior, PlayersManagerBehavior } from '../interfaces';
-import { PairsManagerBehavior } from '../interfaces/Manager';
+import { Player, logger, BaseFightManager, BasePlayersManager, BasePairsManager, PlayerFactory } from '../services';
+import { FightManagerBehavior, PairsManagerBehavior, PlayersManagerBehavior } from '../interfaces/Managers';
 
 export class Game {
     private _playersCount: number;
