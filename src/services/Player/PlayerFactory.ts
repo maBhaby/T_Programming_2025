@@ -1,5 +1,9 @@
 import { IPlayerFactory } from '../../interfaces';
-import { Knight, Mage, Archer, Player } from '../services';
+import { Archer } from './Archer';
+import { Knight } from './Knight';
+import { Mage } from './Mage';
+import { Player } from './Player';
+
 
 export const PlayerMap = {
   Knight: 'Knight',

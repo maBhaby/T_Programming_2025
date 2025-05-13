@@ -1,5 +1,5 @@
 import { logger } from '../Logger';
-import { Player } from '../Players';
+import { Player } from '../Player';
 
 export abstract class Attack {
   protected readonly _player: Player;
